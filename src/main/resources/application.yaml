@@ -1,2 +1,9 @@
 temp-convert:
   base-url: https://www.w3schools.com/xml/tempconvert.asmx
+  authentication:
+    access-token: dummy
+  logging:
+    enabled: true
+    level: body
+  timeouts:
+    call-timeout: 500ms
